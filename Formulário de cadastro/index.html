@@ -1,0 +1,45 @@
+<!DOCTYPE html/>
+<html>
+    <head>
+        <title>Cadastro</title>
+        <meta charset="UTF-8"/>
+        <link href="assets/css/style.css" rel="stylesheet"/>
+        <meta name="viewport" content="width=device-width, user-scalable=0" />
+    </head>
+    <body>
+        <header>
+            <div class="container column">
+                <h1>SEJA BEM VINDO</h1>
+                <H2>CADASTRE-SE GRÁTIS JÁ!</H2>
+            </div>
+        </header>
+        <section class="form">
+            <div class="container space">
+                <form class="column" method="post">
+                    <fieldset class="field_1">
+                        <h1>Dados Pessoais</h1>
+                        <input required class="text" placeholder="Nome" name="name" type="text" /> <br/>
+                        <input required class="text" placeholder="Data de nascimento" name="nasc" type="text"/> <br/>
+                        <input required class="text" placeholder="Nome de usuário" name="username" type="text" /> <br/>
+                        <input required class="text" placeholder="Senha" name="senha" type="password" /> <br/>
+                        <input required class="text" placeholder="Repetir Senha" name="senha" type="password" /> <br/>
+                        <input required class="text" placeholder="Telefone" name="tel" type="tel" /> <br/>
+                        <input required class="text" placeholder="E-mail" name="email" type="email" /><br/>
+                        <h1 >Sexo</h1>
+                        <input required name="sexo" value="masculino" id="masc" type="radio"/>
+                        <label for="masc">Masculino</label>
+                        <input required name="sexo" id="fem" value="feminino" type="radio">
+                        <label for="fem">Feminino</label>        
+                        <input required name="sexo" value="outro" id="out" placeholder="Outro" type="radio">
+                        <label for="out">Outro</label>
+                    </fieldset>
+                    
+                        <input id="reset" name="reset" type="reset" value="Limpar"/>
+                        <input id="send" name="send" type="submit" value="Enviar"/>
+                        
+                </form>
+                
+            </div>
+        </section>
+    </body>
+</html>
